@@ -1,0 +1,43 @@
+Playful Sparkle - Product to Category Filter
+
+The Playful Sparkle - Product to Category Filter extension enhances your OpenCart 4.x store by simplifying filter management within categories. Upon saving product information, this extension automatically links associated product filters to the relevant categories, saving time and ensuring consistency across your filter setup.
+
+A key feature of this extension is the ability to remove unused filters from categories. In each category's Data > Filters section, simply click the blue Remove unused filters button to clear out filters that are no longer relevant. This reduces frontend processing, as the system no longer needs to check product associations for filters that aren’t in use. The result is improved page load times, creating a more efficient and streamlined browsing experience for your customers.
+
+With the Playful Sparkle - Product to Category Filter extension, you’ll gain an effective way to enhance filter management and optimize your store’s performance, freeing you up to focus on business growth.
+
+Benefits
+
+- Time-Saving: No need to manually add filters to categories; the extension automates this process when saving products.
+- Improved Efficiency: Streamline your workflow by integrating filter management directly into product updates.
+- Consistent Filtering: Ensure that category filters reflect the products they contain without additional manual steps.
+
+For more information, visit the extension GitHub page at https://github.com/playfulsparkle/oc4_product_category_filter.git.
+
+Demo frontend - https://opencart4.playfulsparkle.com/
+Demo backend - https://opencart4.playfulsparkle.com/admin/
+
+Installation Guide
+
+1. Download the Extension
+   - Download the latest Playful Sparkle - Product to Category filter release from this repository.
+
+2. Upload the Extension Files
+   - Log in to your OpenCart admin panel.
+   - Go to Extensions > Installer.
+   - Click the Upload button and upload the ps_product_category_filter.ocmod.zip file.
+
+3. Install the Extension
+   - Once uploaded, find the Playful Sparkle - Product to Category filter extension and click the Install button.
+   - Navigate to Extensions and select Analytics from the dropdown.
+   - Locate the Playful Sparkle - Product to Category filter in the module list and click the green Install button.
+
+4. Configure the Extension
+   - After installation, go to the Extensions page, ensuring Analytics is selected.
+   - Click Edit next to the Playful Sparkle - Product to Category filter extension.
+   - Install and enable the module by setting the status to Enabled.
+   - Save the configuration.
+
+Support & Feedback
+
+For support or any inquiries regarding the extension, feel free to open an issue on this repository or reach out via email at support@playfulsparkle.com.
