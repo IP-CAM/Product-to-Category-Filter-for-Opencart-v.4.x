@@ -26,7 +26,7 @@ $_['entry_status']             = 'Stav';
 
 // Button
 $_['button_remove_filter']     = 'Odstrániť nepoužívané filtre';
-$_['button_fix_event_handler'] = 'Opraviť obslužný program udalostí';
+$_['button_fix_event_handler'] = 'Opraviť spracovateľ udalostí';
 
 // Error
 $_['error_permission']         = 'Upozornenie: Nemáte oprávnenie na úpravu modulu Filter produktu do kategórie!';
