@@ -24,11 +24,11 @@ Download the latest **Playful Sparkle - Product to Category filter** release fro
 
 ### 3. Install the Extension
 4. Once uploaded, find the **Playful Sparkle - Product to Category filter** extension and click the `Install` button.
-5. Navigate to `Extensions` and select `Analytics` from the dropdown.
+5. Navigate to `Extensions` and select `Modules` from the dropdown.
 6. Locate the **Playful Sparkle - Product to Category filter** in the module list and click the green `Install` button.
 
 ### 4. Configure the Extension
-1. After installation, go to the `Extensions` page, ensuring `Analytics` is selected.
+1. After installation, go to the `Extensions` page, ensuring `Modules` is selected.
 2. Click `Edit` next to the **Playful Sparkle - Product to Category filter** extension.
 4. Install and enable the module by setting the status to "Enabled."
 5. Save the configuration.
