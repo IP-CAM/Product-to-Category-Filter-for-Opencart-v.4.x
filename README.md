@@ -6,11 +6,21 @@ A key feature of this extension is the ability to remove unused filters from cat
 
 With the **Playful Sparkle - Product to Category Filter** extension, you’ll gain an effective way to enhance filter management and optimize your store’s performance, freeing you up to focus on business growth.
 
-## Benefits
+## Features
 
 - **Time-Saving**: No need to manually add filters to categories; the extension automates this process when saving products.
 - **Improved Efficiency**: Streamline your workflow by integrating filter management directly into product updates.
-- **Consistent Filtering**: Ensure that category filters reflect the products they contain without additional manual steps.
+- **Multilingual Support**: The extension is available in the following languages:
+  - Čeština (cs-cz)
+  - Deutsch (de-de)
+  - English (GB) (en-gb)
+  - English (US) (en-us)
+  - Español (es-es)
+  - Français (fr-fr)
+  - Magyar (hu-hu)
+  - Italiano (it-it)
+  - Русский (ru-ru)
+  - Slovenčina (sk-sk)
 
 ## Installation Instructions
 
