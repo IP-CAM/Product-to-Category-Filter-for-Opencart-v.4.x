@@ -29,5 +29,6 @@ archive.pipe(output);
 
 archive.directory("src/admin/", "admin");
 archive.file("src/install.json", { name: "install.json" });
+archive.file("src/installation.txt", { name: "installation.txt" });
 
 archive.finalize();

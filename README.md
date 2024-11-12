@@ -1,62 +1,44 @@
 # Playful Sparkle - Product to Category Filter for OpenCart 4
 
-The **Playful Sparkle - Product to Category Filter** extension enhances your OpenCart 4.x store by simplifying filter management within categories. Upon saving product information, this extension automatically links associated product filters to the relevant categories, saving time and ensuring consistency across your filter setup.
-
-A key feature of this extension is the ability to remove unused filters from categories. In each category's **Data > Filters** section, simply click the blue **Remove unused filters** button to clear out filters that are no longer relevant. This reduces frontend processing, as the system no longer needs to check product associations for filters that aren’t in use. The result is improved page load times, creating a more efficient and streamlined browsing experience for your customers.
-
-With the **Playful Sparkle - Product to Category Filter** extension, you’ll gain an effective way to enhance filter management and optimize your store’s performance, freeing you up to focus on business growth.
-
-## Features
-
-- **Time-Saving**: No need to manually add filters to categories; the extension automates this process when saving products.
-- **Improved Efficiency**: Streamline your workflow by integrating filter management directly into product updates.
-- **Multilingual Support**: The extension is available in the following languages:
-  - Čeština (cs-cz)
-  - Deutsch (de-de)
-  - English (GB) (en-gb)
-  - English (US) (en-us)
-  - Español (es-es)
-  - Français (fr-fr)
-  - Magyar (hu-hu)
-  - Italiano (it-it)
-  - Русский (ru-ru)
-  - Slovenčina (sk-sk)
-
-## Installation Instructions
-
-### 1. Download the Extension
-Download the latest **Playful Sparkle - Product to Category filter** release from this repository.
-
-### 2. Upload the Extension Files
-1. Log in to your OpenCart admin panel.
-2. Go to `Extensions > Installer`.
-3. Click the `Upload` button and upload the `ps_product_category_filter.ocmod.zip` file.
-
-### 3. Install the Extension
-4. Once uploaded, find the **Playful Sparkle - Product to Category filter** extension and click the `Install` button.
-5. Navigate to `Extensions` and select `Modules` from the dropdown.
-6. Locate the **Playful Sparkle - Product to Category filter** in the module list and click the green `Install` button.
-
-### 4. Configure the Extension
-1. After installation, go to the `Extensions` page, ensuring `Modules` is selected.
-2. Click `Edit` next to the **Playful Sparkle - Product to Category filter** extension.
-4. Install and enable the module by setting the status to "Enabled."
-5. Save the configuration.
+Playful Sparkle - Product to Category Filter extension for OpenCart 4.x+ streamlines the process of managing product filters. When you save a product, the extension automatically adds any relevant filters from that product to the associated categories, eliminating the need to manually update each category with new filters. This not only saves time but also reduces repetitive tasks, ensuring that your store’s categories stay up-to-date effortlessly. Additionally, the extension allows for the easy removal of unused filters from product categories, and improving page load times by eliminating unnecessary filters.
 
 ---
 
-## Support & Feedback
+## Features
 
-For support or any inquiries regarding the extension, feel free to open an issue on this repository or reach out via email at [support@playfulsparkle.com](mailto:support@playfulsparkle.com).
+- **Automatic Filter Assignment**: Automatically adds relevant product filters to associated categories when a product is saved, eliminating the need for manual updates.
+- **Efficient Product Filter Management**: Streamlines product filter management, saving time and reducing repetitive tasks.
+- **Easy Filter Removal**: Allows for the easy removal of unused filters from product categories, reducing unnecessary database queries and improving page load speeds.
+- **Compatibility**: Integrates smoothly with OpenCart 4.x+, supporting a range of online store setups.
+- **Multilingual Support**: Ready for international use with languages including Čeština (cs-cz), Deutsch (de-de), English (GB) (en-gb), English (US) (en-us), Español (es-es), Français (fr-fr), Magyar (hu-hu), Italiano (it-it), Русский (ru-ru), and Slovenčina (sk-sk).
+
+---
+
+## Installation Instructions
+
+1. Download the latest version from this repository.
+2. Log in to your OpenCart admin panel.
+3. Navigate to `Extensions > Installer`.
+4. Click the `Upload` button and upload the `ps_product_category_filter.ocmod.zip` file.
+5. Locate the extension in the `Installed Extensions` list and click the `Install` button.
+6. Navigate to `Extensions > Extensions` and select `Modules` from the `Choose the extension type` dropdown list.
+7. Locate the extension in the `Modules` list and click the `Install` button.
+8. Click the `Edit` button, configure the extension parameters, and click the `Save` button to save your settings.
+
+---
+
+## Support & Inquiries
+
+For assistance or inquiries related to this extension, please open an issue on this repository or contact us via email at [support@playfulsparkle.com](mailto:support@playfulsparkle.com).
 
 ---
 
 ## License
 
-This project is licensed under the GPL-3.0 license. See the [LICENSE](./LICENSE) file for more information.
+This project is distributed under the GPL-3.0 license. Please refer to the [LICENSE](./LICENSE) file for further details.
 
 ---
 
 ## Contributing
 
-We welcome contributions! If you would like to contribute to this project, please fork the repository and submit a pull request with your changes.
+We encourage contributions from the community. To contribute, please fork the repository and submit a pull request with your proposed changes.
