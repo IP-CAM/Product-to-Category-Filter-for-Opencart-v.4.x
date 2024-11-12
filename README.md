@@ -1,6 +1,6 @@
 # Playful Sparkle - Product to Category Filter for OpenCart 4
 
-Playful Sparkle - Product to Category Filter extension for OpenCart 4.x+ streamlines the process of managing product filters. When you save a product, the extension automatically adds any relevant filters from that product to the associated categories, eliminating the need to manually update each category with new filters. This not only saves time but also reduces repetitive tasks, ensuring that your store’s categories stay up-to-date effortlessly. Additionally, the extension allows for the easy removal of unused filters from product categories, and improving page load times by eliminating unnecessary filters.
+The **Playful Sparkle - Product to Category Filter** extension for OpenCart 4.x+ streamlines the process of managing product filters. When you save a product, the extension automatically adds any relevant filters from that product to the associated categories, eliminating the need to manually update each category with new filters. This not only saves time but also reduces repetitive tasks, ensuring that your store’s categories stay up-to-date effortlessly. Additionally, the extension allows for the easy removal of unused filters from product categories, and improving page load times by eliminating unnecessary filters.
 
 ---
 
