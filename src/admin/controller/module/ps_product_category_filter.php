@@ -165,12 +165,14 @@ class PsProductCategoryFilter extends \Opencart\System\Engine\Controller
         } else {
             $result = $this->model_setting_event->addEvent(
                 'module_ps_product_category_filter',
+                '',
                 'admin/view/catalog/category_form/before',
                 'extension/ps_product_category_filter/module/ps_product_category_filter' . $separator . 'eventAdminViewCatalogCategoryFormBefore'
             );
 
             $result = $this->model_setting_event->addEvent(
                 'module_ps_product_category_filter',
+                '',
                 'admin/model/catalog/product/editProduct/after',
                 'extension/ps_product_category_filter/module/ps_product_category_filter' . $separator . 'eventTest'
             );
