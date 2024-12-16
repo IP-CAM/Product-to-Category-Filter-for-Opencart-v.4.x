@@ -1,5 +1,6 @@
 {
     "name": "Playful Sparkle - Product to Category Filter",
+    "description": "Automatically assign product filters to categories, save time, and improve page load speeds with easy filter management and removal.",
     "code": "ps_product_category_filter",
     "license": "GPL",
     "version": "1.0.0",
