@@ -85,7 +85,7 @@ class PsProductCategoryFilter extends \Opencart\System\Engine\Controller
 
     public function install(): void
     {
-        if ($this->user->hasPermission('modify', 'extension/ps_product_category_filter/module/ps_product_category_filter')) {
+        if ($this->user->hasPermission('modify', 'extension/module')) {
             $this->load->model('setting/event');
 
             $this->registerEvents();
@@ -98,7 +98,7 @@ class PsProductCategoryFilter extends \Opencart\System\Engine\Controller
 
     public function uninstall(): void
     {
-        if ($this->user->hasPermission('modify', 'extension/ps_product_category_filter/module/ps_product_category_filter')) {
+        if ($this->user->hasPermission('modify', 'extension/module')) {
             $this->load->model('setting/event');
 
             $this->unregisterEvents();
