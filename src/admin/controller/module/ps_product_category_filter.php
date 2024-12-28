@@ -228,7 +228,7 @@ class PsProductCategoryFilter extends \Opencart\System\Engine\Controller
                 $url .= '&page=' . $this->request->get['page'];
             }
 
-            if (isset($this->request->get['page'])) {
+            if (isset($this->request->get['category_id'])) {
                 $url .= '&category_id=' . $this->request->get['category_id'];
             }
 
@@ -248,7 +248,13 @@ class PsProductCategoryFilter extends \Opencart\System\Engine\Controller
 
         $this->load->model('extension/ps_product_category_filter/module/ps_product_category_filter');
 
-        $this->model_extension_ps_product_category_filter_module_ps_product_category_filter->removeUnusedFilters($this->request->get['category_id']);
+        if (isset($this->request->get['category_id'])) {
+            $category_id = (int) $this->request->get['category_id'];
+        } else {
+            $category_id = 0;
+        }
+
+        $this->model_extension_ps_product_category_filter_module_ps_product_category_filter->removeUnusedFilters($category_id);
 
         $this->session->data['success'] = $this->language->get('text_filter_success');
 
