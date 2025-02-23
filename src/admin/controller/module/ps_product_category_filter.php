@@ -157,7 +157,7 @@ class PsProductCategoryFilter extends \Opencart\System\Engine\Controller
             $result = $this->model_setting_event->addEvent([
                 'code' => 'module_ps_product_category_filter',
                 'description' => '',
-                'trigger' => 'admin/model/catalog/product/editProduct/after',
+                'trigger' => 'admin/model/catalog/product' . $separator . 'editProduct/after',
                 'action' => 'extension/ps_product_category_filter/module/ps_product_category_filter' . $separator . 'eventTest',
                 'status' => '1',
                 'sort_order' => '0'
@@ -173,7 +173,7 @@ class PsProductCategoryFilter extends \Opencart\System\Engine\Controller
             $result = $this->model_setting_event->addEvent(
                 'module_ps_product_category_filter',
                 '',
-                'admin/model/catalog/product/editProduct/after',
+                'admin/model/catalog/product' . $separator . 'editProduct/after',
                 'extension/ps_product_category_filter/module/ps_product_category_filter' . $separator . 'eventTest'
             );
         }
@@ -183,6 +183,7 @@ class PsProductCategoryFilter extends \Opencart\System\Engine\Controller
 
     public function eventTest(string &$route, array &$args): void
     {
+        echo $route . "<br>";
         if (!$this->config->get('module_ps_product_category_filter_status')) {
             return;
         }
