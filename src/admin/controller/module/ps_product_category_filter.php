@@ -158,7 +158,7 @@ class PsProductCategoryFilter extends \Opencart\System\Engine\Controller
                 'code' => 'module_ps_product_category_filter',
                 'description' => '',
                 'trigger' => 'admin/model/catalog/product' . $separator . 'editProduct/after',
-                'action' => 'extension/ps_product_category_filter/module/ps_product_category_filter' . $separator . 'eventTest',
+                'action' => 'extension/ps_product_category_filter/module/ps_product_category_filter' . $separator . 'eventAdminModelCatalogProductEditProductAfter',
                 'status' => '1',
                 'sort_order' => '0'
             ]);
@@ -174,16 +174,15 @@ class PsProductCategoryFilter extends \Opencart\System\Engine\Controller
                 'module_ps_product_category_filter',
                 '',
                 'admin/model/catalog/product' . $separator . 'editProduct/after',
-                'extension/ps_product_category_filter/module/ps_product_category_filter' . $separator . 'eventTest'
+                'extension/ps_product_category_filter/module/ps_product_category_filter' . $separator . 'eventAdminModelCatalogProductEditProductAfter'
             );
         }
 
         return $result;
     }
 
-    public function eventTest(string &$route, array &$args): void
+    public function eventAdminModelCatalogProductEditProductAfter(string &$route, array &$args): void
     {
-        echo $route . "<br>";
         if (!$this->config->get('module_ps_product_category_filter_status')) {
             return;
         }
